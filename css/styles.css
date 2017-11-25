@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  background-image: url(../img/mist.jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.field {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.field #border {
+  background-color: #fff;
+  opacity: 0.4;
+  padding: 40px 50px;
+  color: #000;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 250%;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+@media screen and (max-width: 1400px) {
+  body {
+    background-size: auto;
+  }
+}
