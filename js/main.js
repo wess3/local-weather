@@ -56,7 +56,6 @@
 
   // Change Background
   function updateBackground() {
-    cityWeather = "thunderstorm";
     if (cityWeather === "mist" || cityWeather === "snow") {
       text.style.backgroundColor = "#000";
       text.style.color = "#fff";
