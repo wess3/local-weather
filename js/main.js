@@ -1,6 +1,3 @@
-/*
-  potrebujes zmenit farbu pozadia textu na sedu ak je snow
-*/
 "use strict";
 
 (() => {
@@ -34,7 +31,7 @@
     xhr.send();
   }
 
-  // Get Temperature And Weather
+  // Get Temperature And Weather Status
   function getWeather(position) {
     const weatherUrl = `http://api.openweathermap.org/data/2.5/weather?lat=${position.coords.latitude}&lon=${position.coords.longitude}&APPID=69d36a5e934afb5f52faa7defbdea27c&units=metric`;
     console.log(weatherUrl);
